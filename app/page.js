@@ -22,7 +22,7 @@ import {
 
 export default function Home() {
   const [inventory, setInventory] = useState([]);
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const [itemName, setItemName] = useState("");
   const [searchQuery, setSearchQuery] = useState(""); // State for search query
 
